@@ -3,8 +3,9 @@
 
 from setuptools import find_packages, setup
 
-with open("README.md") as readme_file:
-    readme = readme_file.read()
+# with open("README.md") as readme_file:
+#     readme = readme_file.read()
+readme = ""
 
 with open("requirements.txt") as requirements_file:
     requirements = requirements_file.read().splitlines()
